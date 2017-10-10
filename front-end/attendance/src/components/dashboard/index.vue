@@ -1,14 +1,17 @@
 <template>
-    <h1 class="container">Dashboard</h1>
+    <div class="container">
+        <div class="panel panel-info">
+            <div class="panel-heading">
+                <h1>Dashboard</h1>
+            </div>
+        </div>  
+    </div>
 </template>
 
-<script>
+<<script>
 export default {
-  name: 'index',
-  data () {
-    return {
-      msg: 'Welcome to Dashboard'
-    }
+  mounted() {
+      console.log('Dashbord index vue is running...');
   }
 }
 </script>
